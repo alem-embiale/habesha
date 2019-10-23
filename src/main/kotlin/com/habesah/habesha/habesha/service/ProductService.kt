@@ -21,6 +21,7 @@ class ProductService {
         val products: List<Product> = productRepository.findAll()
         products.forEach { println(it.id) }
         products.forEach { println(it.color) }
+        products.forEach { println(it.price) }
         return products
     }
 }
