@@ -22,6 +22,7 @@ class ProductService {
         products.forEach { println(it.id) }
         products.forEach { println(it.color) }
         products.forEach { println(it.price) }
+        products.forEach {println(it.size)}
         return products
     }
 }
