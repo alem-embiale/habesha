@@ -20,6 +20,7 @@ class ProductService {
         seat.forEach { println(it) }
         val products: List<Product> = productRepository.findAll()
         products.forEach { println(it.id) }
+        products.forEach { println(it.color) }
         return products
     }
 }
